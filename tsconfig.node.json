@@ -4,6 +4,7 @@
     "target": "es2023",
     "lib": ["ES2023"],
     "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -16,7 +17,6 @@
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["vite.config.ts"]
