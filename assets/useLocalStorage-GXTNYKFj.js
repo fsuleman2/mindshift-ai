@@ -1,0 +1,1 @@
+import{c as e,p as t}from"./button-BzjipqNa.js";import{n,r}from"./storageCore-BQwea3f-.js";var i=t(e(),1);function a(e){let t=(0,i.useCallback)(t=>r(e,t),[e]),a=(0,i.useCallback)(()=>n(e),[e]);return(0,i.useSyncExternalStore)(t,a,a)}export{a as t};

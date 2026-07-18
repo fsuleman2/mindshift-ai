@@ -1,0 +1,1 @@
+var e={great:`😊`,okay:`😐`,low:`😔`,angry:`😡`,anxious:`😰`},t={great:`Great`,okay:`Okay`,low:`Low`,angry:`Angry`,anxious:`Anxious`},n={great:100,okay:70,low:40,angry:25,anxious:20};function r(){return typeof crypto<`u`&&typeof crypto.randomUUID==`function`?crypto.randomUUID():`id-${Date.now()}-${Math.random().toString(36).slice(2,10)}`}export{n as i,e as n,t as r,r as t};
