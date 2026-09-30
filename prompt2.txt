@@ -1,0 +1,19 @@
+Read PROJECT_CONTEXT.md completely.
+
+You are taking over an existing enterprise Java migration platform project.
+
+Do not start implementing immediately.
+
+First inspect the current repository and compare the actual codebase against the architecture and implementation state described in PROJECT_CONTEXT.md.
+
+Produce a CURRENT IMPLEMENTATION AUDIT showing:
+1. What actually exists
+2. What is functional
+3. What is stubbed
+4. What is missing
+5. What can be tested immediately
+6. What needs to be changed before the first real Java repository migration
+
+Do not redesign the architecture.
+Do not create large amounts of code yet.
+Focus on establishing the actual current state.
